@@ -1,0 +1,10 @@
+{
+  "name": "card-party-admin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check src/main.js && node --check scripts/serve.mjs"
+  }
+}

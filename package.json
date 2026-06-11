@@ -1,0 +1,23 @@
+{
+  "name": "neo-card-party",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A public, sanitized monorepo export of a real-time browser card game.",
+  "workspaces": [
+    "apps/web",
+    "apps/server",
+    "apps/admin",
+    "packages/shared"
+  ],
+  "scripts": {
+    "build": "npm run build -w @card-party/shared && npm run build -w card-party-server && npm run build -w card-party-web",
+    "test": "npm run test -w @card-party/shared && npm run test -w card-party-server && npm run test -w card-party-web",
+    "check": "npm run check -w card-party-admin",
+    "dev:web": "npm run dev -w card-party-web",
+    "dev:server": "npm run dev -w card-party-server",
+    "dev:admin": "npm run start -w card-party-admin"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
