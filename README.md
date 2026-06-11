@@ -28,8 +28,6 @@
 
 ## 第三方项目标注
 
-本项目确实使用了 Colyseus，而不是只在文档中提到：
-
 - `apps/server/package.json` 依赖 `colyseus` 和 `@colyseus/schema`。
 - `apps/web/package.json` 依赖 `colyseus.js`。
 - 服务端入口使用 Colyseus `Server`，游戏房间继承 Colyseus `Room`。
