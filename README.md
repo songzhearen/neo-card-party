@@ -99,14 +99,7 @@ ROOT_BOOTSTRAP_PASSWORD=change-me
 - [Shared 包说明](packages/shared/README.md)
 - [Shared 发布说明](packages/shared/RELEASE.md)
 
-## 公开发布建议
 
-这份公共版适合作为学习项目、作品集项目或二次开发起点。正式公开前建议再确认：
-
-- 项目名称、图标、宣传图和域名是否为原创。
-- 截图、音乐、字体、图片素材是否有公开使用权限。
-- `.env`、数据库备份、token、私钥、真实域名没有被提交。
-- 管理后台不要裸奔，至少在域名、反向代理、平台权限或 VPN 层增加访问限制。
 
 ## 许可证
 
